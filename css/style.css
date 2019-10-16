@@ -16,6 +16,7 @@ header{
 article
 {
     text-align:center;
+    padding:2rem;
 }
 
 .c1{
@@ -36,6 +37,7 @@ h1{
     font-size:3rem;
 }
 .h2{
+    text-align:center;
     margin-top:3rem;
     font-size:2rem;
 }
@@ -51,6 +53,7 @@ h2::after{
     margin-left: 45%;
     margin-top: 1%;
 }
+
 .icons{
     color:#2ecc71;
     font-size: 3rem;
@@ -68,6 +71,7 @@ h2::after{
     border-radius: 50%;
     margin-right:1.2rem;
     padding:1.5rem;
+    font-size:25px;
 
 
 }
@@ -86,6 +90,7 @@ h2::after{
 .contain{
     display:flex;
     text-align:left;
+    margin-top:2rem;
 }
 .logo{
     position: relative;
@@ -94,7 +99,7 @@ h2::after{
     height: 3.5rem;
 }
 p{
-    margin-top:2rem;
+    margin-top:0.9rem;
 }
 .p1{
     margin-top:0.5rem;
@@ -165,3 +170,96 @@ a{
         color:white;
         transform:scale(1.2);
     }
+
+    .data{
+        display:flex;
+        text-align:center;
+    }
+    .list{
+        display:block;
+    }
+
+    .city{
+        width:15rem;
+        height:15rem;
+    }
+    .photos
+    {
+        margin-top:2rem;
+        margin-left:3rem;
+    }
+    .sec{
+        margin-top:-20rem;
+        padding:6rem;
+    }
+    .new{
+        background-image: linear-gradient(to bottom, rgba(146, 3, 3, 0.52), rgba(0, 0, 0, 0.73)),url(../img/background-berries-blueberries-1092730.jpg);
+        background-attachment: fixed;
+        height:100vh;
+        background-size: 100%;
+    }
+    .n_h2{
+        color:white;
+        position:relative;
+        top:5rem;
+    }
+    .review
+    {
+        display:flex;
+        position: relative;
+        top: 10rem;
+        left: 6rem;
+    }
+    .rev{
+      color:white;
+      margin-left:1rem;
+      font-style: italic;
+      font-size:1.2rem;
+    }
+    .rev_p:before{
+      content:"\201C";
+      font-size:400%;
+      display:block;
+    }
+    .people{
+        display:flex;
+        margin-top:2rem;
+    }
+    .ppl{
+        border-radius: 50%;
+        border-style:visible;
+        width:4rem;
+        margin-right:1rem;
+    }
+    .main{
+        margin-top: 3rem;
+    background-color: #2ecc71;
+    height: 38rem;
+    width: 40rem;
+    margin-left: 20rem;
+    border-radius:5%
+    }
+    .form{
+        margin:2rem;
+        padding:1rem;
+        display:flex;
+
+    }
+    label{
+        /* margin-right:10rem; */
+        color:white;
+        font-size:1.2rem;
+    }
+    input{
+        margin-left:10rem;
+    }
+    textarea{
+        margin-left:3rem;
+    }
+    select{
+        margin-left:3rem;
+    }
+    /* .l1{
+        margin-right:2.5rem;
+    } */
+    
