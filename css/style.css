@@ -12,11 +12,47 @@ header{
     height:100vh;
     background-size:100%;
     background-attachment: fixed;
+    /* clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%); */
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:20;
+    background-color:white;
+    
+  }
+  
 article
 {
     text-align:center;
     padding:2rem;
+}
+input{
+    margin-left: 10rem;
+    width: 280px;
+    height: 30px;
+    border: 3px solid yellow;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+input:hover{
+    margin-left: 10rem;
+    width: 280px;
+    height: 30px;
+    border: 3px solid #dd2523;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+input:active{
+    margin-left: 10rem;
+    width: 280px;
+    height: 30px;
+    border: 3px solid blue;
+    padding: 0 10px;
+    border-radius: 10px;
 }
 
 .c1{
@@ -32,7 +68,7 @@ article
 h1{
     color:white;
     position:relative;
-    top:5rem;
+    top:15rem;
     left:15rem;
     font-size:3rem;
 }
@@ -58,6 +94,17 @@ h2::after{
     color:#2ecc71;
     font-size: 3rem;
     margin-left:5rem;
+    
+
+}
+.ic{
+    color:#2ecc71;
+    font-size: 3rem;
+    margin-left:5rem;
+    width: 15%;
+    position: relative;
+    left: 65rem;
+    top: -3rem;
 
 }
 .but{
@@ -89,7 +136,7 @@ h2::after{
 .lines{
     position: relative;
     top: -30rem;
-    left: 50rem;
+    left: 45rem;
 }
 .contain{
     display:flex;
@@ -99,7 +146,7 @@ h2::after{
 .logo{
     position: relative;
     top: -25rem;
-    left: 20rem;
+    left: 16rem;
     height: 3.5rem;
 }
 p{
@@ -112,7 +159,6 @@ p{
 ul{
     display:flex;
     justify-content: flex-end;
-    padding-top:2rem;
     padding-right:0.5rem;}
 li{
     list-style: none;
@@ -130,7 +176,7 @@ a{
     font-size:1.2rem;}
     .links{
       position:relative;
-      top:7rem;
+      top:18rem;
       left:15rem;
     }
     .btn{
@@ -186,6 +232,7 @@ a{
     .city{
         width:15rem;
         height:15rem;
+        border-radius: 5rem;
     }
     .photos
     {
@@ -279,4 +326,44 @@ a{
         transform:scale(1.4);
         background-color:white ;
        color:#2ecc71;
+    }
+    .packs{
+        display:flex;
+        margin-left: 3rem;
+    }
+    .div{
+    background-color: #ecf0f1;
+    text-align: left;
+    padding: 5rem;
+    margin: 1rem;
+    border-radius:15%;
+    }
+    .ul_1{
+        display:block;
+    }
+    .np{
+        border-radius:50rem;
+        padding:1.5rem;
+        text-align:center;
+        background-color:#2ecc71;
+        color:white;
+    }
+    .last{
+        position:relative;
+        right:70%;
+    }
+    footer{
+        background-color:#2d3436;
+        color:white;
+        height: 6rem;
+        
+    }
+    .sticky a{
+        color:black;
+    }
+    .d{
+        color: white;
+        text-align: center;
+        position: relative;
+        top: -3rem;
     }
